@@ -7,6 +7,7 @@ import bautistabambozzi.solutions.DayOne;
 public class Main {
     public static void main(String[] args) {
 
-        DayOne.partOne();
+        var ans = DayOne.p2();
+        System.out.print(ans);
     }
 }
