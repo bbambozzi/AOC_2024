@@ -4,6 +4,7 @@ import bautistabambozzi.helpers.FileLoader;
 
 import java.util.*;
 import java.util.regex.Pattern;
+import java.util.stream.Gatherer;
 import java.util.stream.Stream;
 
 public class DayOne {
@@ -48,5 +49,4 @@ public class DayOne {
         }
         return answer;
     }
-
 }

@@ -1,5 +1,6 @@
 package bautistabambozzi.helpers;
 
+import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -25,5 +26,16 @@ public class FileLoader {
             logger.severe("failed to parse the input\n" + e.getMessage());
         }
         return Stream.empty();
+    }
+
+
+    public static Stream<String> loadSample() {
+        try {
+            Path pth = Path.of(Objects.requireNonNull(classLoader.getResource("sample.txt")).getPath());
+            return Files.lines(pth);
+        } catch (IOException e) {
+            logger.severe("failed to parse the sample file\n" + e.getMessage());
+            return Stream.empty();
+        }
     }
 }

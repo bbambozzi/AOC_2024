@@ -6,8 +6,7 @@ import bautistabambozzi.solutions.DayOne;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-
-        var ans = DayOne.p2();
-        System.out.print(ans);
+        System.out.println("day one, part 1 = " + DayOne.p1());
+        System.out.println("day one, part 2 = " + DayOne.p2());
     }
 }
