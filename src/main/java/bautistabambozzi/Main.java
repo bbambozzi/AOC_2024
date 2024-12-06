@@ -11,6 +11,7 @@ public class Main {
         System.out.println("day one, part 2 = " + DayOne.p2());
         System.out.println("day two, part 1 = " + DayTwo.p1());
         System.out.println("day two, part 2 = " + DayTwo.p2());
-//        System.out.println("day one, part 2 = " + DayOne.p2());
+        System.out.println("day three, part 1 = " + DayThree.p1());
+        System.out.println("day three, part 2 = " + DayThree.p2());
     }
 }

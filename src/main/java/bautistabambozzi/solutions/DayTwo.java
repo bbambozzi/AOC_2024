@@ -103,7 +103,6 @@ public class DayTwo {
                         List<Integer> copy = new ArrayList<>(line);
                         copy.remove(key);
                         if (hasNoErrors(copy)) {
-                            System.out.println("found fixable error at " + line);
                             answer++;
                             break;
                         }

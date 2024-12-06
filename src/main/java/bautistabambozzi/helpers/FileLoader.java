@@ -38,4 +38,9 @@ public class FileLoader {
             return Stream.empty();
         }
     }
+
+    public static Stream<String> loadSample(int ignored) {
+        return loadSample();
+    }
+
 }
